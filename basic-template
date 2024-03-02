@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  <meta charset="utf-8">
+  <title>Suffena museum!</title>
+  <meta name="author" content="">
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="graphicdesignismypassion.css">
+
+  <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+  <!-- This will serve as the header ! -->
+  <div class="content-block">
+    <h1 class = "title"> ~Suffena Productions~</h1>
+    <h4 class = "subtitle">~Enjoy your stay~</h4>
+    <div class = "linklist">
+      <a href="index.html">Home</a>
+    </div>
+  </div>
+  <!-- This will be the main body of the website.  -->
+  <div class = "content-block">
+    <h2 class = "title"> Welcome to Suffena incorporated! </h1>
+  </div>
+
+
+</body>
+
+</html>

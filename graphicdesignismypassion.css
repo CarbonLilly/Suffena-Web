@@ -1,0 +1,50 @@
+.content-block {
+  color: pink;
+  margin: 3%;
+  padding: 3%;
+  background-color:gray;
+  text-align:left;
+  border: 10px solid black;
+}
+.title {
+  text-align: center;
+}
+.subtitle {
+}
+
+.linklist {
+  text-align: center;
+}
+
+.title-link {
+  background-color: black;
+  border: 5px ridge #D3D3D3;
+  padding: 10px;
+  font-size: 200%;
+  text-decoration: none;
+  color: inherit;
+}
+
+p {
+  text-wrap: wrap
+}
+body {
+  background-image: url(kittycat.gif);
+  background-color: #D3D3D3;
+}
+
+.art-gallery {
+  margin:auto;
+  text-align: center;
+  display:grid;
+  grid-template-columns:repeat(3, 1fr)
+}
+
+.gallery-image {
+  height:35vh;
+  border: 10px inset gold;
+}
+.divider{
+  border: 3px solid black;
+  margin:2%;
+}
