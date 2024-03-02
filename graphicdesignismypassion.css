@@ -5,6 +5,7 @@
   background-color:gray;
   text-align:left;
   border: 10px solid black;
+  height: auto;
 }
 .title {
   text-align: center;
@@ -14,19 +15,23 @@
 
 .linklist {
   text-align: center;
+  max-width:80%;
+  margin:auto;
+  max-height:40%
 }
 
 .title-link {
   background-color: black;
-  border: 5px ridge #D3D3D3;
-  padding: 10px;
-  font-size: 200%;
+  border: 2px ridge #D3D3D3;
+  padding: auto;
+  font-size: 100%;
   text-decoration: none;
   color: inherit;
 }
 
 p {
-  text-wrap: wrap
+  text-wrap: wrap;
+  padding:auto;
 }
 body {
   background-image: url(kittycat.gif);
@@ -34,15 +39,26 @@ body {
 }
 
 .art-gallery {
-  margin:auto;
+  margin:5%;
   text-align: center;
-  display:grid;
-  grid-template-columns:repeat(3, 1fr)
+  justify-content: space-between;
+  display:flex;
+  flex-wrap: wrap;
+}
+.gallery-entry{
+  width:fit-content;
+  justify-content: center;
+  margin:auto;
+  text-wrap: pretty;
+  max-width: 30em;
+
 }
 
 .gallery-image {
-  height:35vh;
   border: 10px inset gold;
+  object-fit: cover;
+  max-width: 80%;
+
 }
 .divider{
   border: 3px solid black;
